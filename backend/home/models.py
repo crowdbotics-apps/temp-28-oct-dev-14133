@@ -10,6 +10,13 @@ class CustomText(models.Model):
     title = models.CharField(
         max_length=150,
     )
+    hjgfjhgjhgfjhg = models.ForeignKey(
+        "home.CustomText",
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="customtext_hjgfjhgjhgfjhg",
+    )
 
     def __str__(self):
         return self.title
@@ -39,8 +46,8 @@ class Hgfjhfh(models.Model):
     "Generated Model"
     jhgjfhgj = models.BigIntegerField()
     hgjfkhfghfgjfjh = models.GenericIPAddressField(
-        protocol="both",
-        unpack_ipv4=False,
         null=True,
         blank=True,
+        protocol="both",
+        unpack_ipv4=False,
     )
