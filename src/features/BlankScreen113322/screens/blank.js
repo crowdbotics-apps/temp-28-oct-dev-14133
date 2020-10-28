@@ -27,11 +27,7 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <TouchableOpacity
-        onPress={() => this.props.navigation.navigate("BlankScreen013321")}
-      >
-        <Text>Sample text content</Text>
-      </TouchableOpacity>
+      <Text>Sample text content</Text>
     </View>
   )
 }
@@ -41,6 +37,9 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
+  View_1: {},
+  Text_2: {},
   View_1: {},
   Text_2: {}
 })
