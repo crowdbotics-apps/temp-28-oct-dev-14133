@@ -1,6 +1,6 @@
 import axios from "axios"
 const tempoctAPI = axios.create({
-  baseURL: "https://temp-28-oct-dev-14133-prod.herokuapp.com/",
+  baseURL: "https://temp-28-oct-dev-14133.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list(action) {
