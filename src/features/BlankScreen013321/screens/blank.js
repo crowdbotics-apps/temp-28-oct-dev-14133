@@ -27,7 +27,10 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Button title="Press me!" onPress={() => alert("Pressed!")} />
+      <Button
+        title="Press me!"
+        onPress={() => this.props.navigation.navigate("BlankScreen113322")}
+      />
     </View>
   )
 }
@@ -37,6 +40,9 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
+  View_1: {},
+  Button_2: {},
   View_1: {},
   Button_2: {}
 })
