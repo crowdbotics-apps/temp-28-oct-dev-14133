@@ -38,3 +38,9 @@ class HomePage(models.Model):
 class Hgfjhfh(models.Model):
     "Generated Model"
     jhgjfhgj = models.BigIntegerField()
+    hgjfkhfghfgjfjh = models.GenericIPAddressField(
+        protocol="both",
+        unpack_ipv4=False,
+        null=True,
+        blank=True,
+    )
