@@ -37,6 +37,9 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
+  View_1: {},
+  Button_2: {},
   View_1: {},
   Button_2: {}
 })
