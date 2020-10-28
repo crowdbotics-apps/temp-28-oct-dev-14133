@@ -12,9 +12,9 @@ class CustomText(models.Model):
     )
     hjgfjhgjhgfjhg = models.ForeignKey(
         "home.CustomText",
-        on_delete=models.CASCADE,
         null=True,
         blank=True,
+        on_delete=models.CASCADE,
         related_name="customtext_hjgfjhgjhgfjhg",
     )
 
